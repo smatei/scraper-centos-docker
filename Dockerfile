@@ -1,5 +1,5 @@
 FROM centos:7
-RUN  yum update \
+RUN  yum -y update \
 ##################################################################
 # install java
   && yum -y install maven \
